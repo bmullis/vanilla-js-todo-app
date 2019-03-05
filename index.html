@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todos App | Be more productive!</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1>Todo Application</h1>
+  <h3>My Todos</h3>
+
+  <input id="searchTodos" placeholder="Search your todos..." />
+  Sort: 
+  <select id="sortTodos">
+    <option>Asc</option>
+    <option>Desc</option>
+  </select>
+
+  Filter:
+  <select id="filterTodos">
+    <option>All</option>
+    <option>In Progress</option>
+    <option>Completed</option>
+  </select>
+
+  <ul id="todoList">
+    <!-- Todos will be appended here -->
+  </ul>
+  <p id="todosSummary"></p>
+  
+  <form id="newTodoForm">
+    <input type="text" placeholder="New todo description..." name="newTodo" />
+    <button type="submit">Create Todo</button>
+  </form>
+
+  <p id="formErrors"></p>
+
+  <script type="module" src="js/todo-app.js"></script>
+</body>
+
+</html>

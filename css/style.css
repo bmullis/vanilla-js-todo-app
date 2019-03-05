@@ -1,0 +1,23 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: #131426;
+  color: white;
+  font-size: 17px;
+}
+.completed {
+  text-decoration: line-through;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  height: 2rem;
+  list-style: none;
+}
+#formErrors p {
+  background: #aa1111;
+  border: 1px solid #cc3333;
+  color: white;
+}
